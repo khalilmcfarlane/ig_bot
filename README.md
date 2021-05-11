@@ -1,2 +1,2 @@
-# ig_bot
+# Instagram Bot
 Instagram bot strictly for skill development purposes
