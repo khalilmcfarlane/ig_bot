@@ -1,3 +1,3 @@
 from instapy import InstaPy
 
-InstaPy(username="your_username", password="your_password").login()
+InstaPy(username="csmajorbot", password="CsMajorsRule321*").login()
