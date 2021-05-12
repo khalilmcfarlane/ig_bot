@@ -9,6 +9,17 @@ browser.get('https://www.instagram.com/')
 login_link = browser.find_element_by_xpath("//a[text()='Log in']")
 login_link.click()
 
+sleep(2)
+
+username_input = browser.find_element_by_css_selector("input[name='username']")
+password_input = browser.find_element_by_css_selector("input[name='password']")
+
+username_input.send_keys("khalil.mcfarlane")
+password_input.send_keys("Deku6582*")
+
+login_button = browser.find_element_by_xpath("//button[@type='submit']")
+login_button.click()
+
 sleep(5)
 
 browser.close()
