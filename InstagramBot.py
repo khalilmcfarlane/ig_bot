@@ -14,5 +14,7 @@ session.set_relationship_bounds(enabled=True,
                                     max_followers=20000,
                                     min_followers=500,
                                     min_following=50)
+session.like_by_feed(amount=20, randomize=5)
+session.like_by_users(["donkurayami", "von.allensworth"], amount=5)
 
 session.end()
